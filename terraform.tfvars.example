@@ -7,11 +7,11 @@ private_subnet_cidrs = ["10.0.10.0/24", "10.0.20.0/24"]
 availability_zones   = ["us-east-1a", "us-east-1b"]
 
 instance_type = "t2.micro"
-key_name    = "your-key-name"  
+key_name      = "lam"  
 
 db_instance_class  = "db.t3.micro"
 db_engine         = "mysql"
 db_engine_version = "8.0"
 db_name           = "appdb"
-db_username = "your-username"  
-db_password = "your-password" 
+db_username       = "admin"
+db_password       = "admin123456"  
